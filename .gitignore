@@ -1,0 +1,397 @@
+
+# Creado por https://www.toptal.com/developers/gitignore/api/sketchup,visualstudiocode,unity,androidstudio,android,windows,images
+# Edite en https://www.toptal.com/developers/gitignore?templates=sketchup,visualstudiocode,unity,androidstudio,android,windows,images
+
+### Android ###
+# Archivos de aplicación creados
+* .apk
+* .aar
+* .ap_
+* .aab
+
+# Archivos para ART / Dalvik VM
+* .dex
+
+# Archivos de clase Java
+*.clase
+
+# Archivos generados
+compartimiento/
+gen /
+fuera/
+# Descomente la siguiente línea en caso de que lo necesite y no tenga los archivos de tipo de compilación de lanzamiento en su aplicación
+# lanzamiento/
+
+# Archivos Gradle
+.gradle /
+construir/
+
+# Archivo de configuración local (ruta sdk, etc.)
+propiedades.locales
+
+# Carpeta Proguard generada por Eclipse
+proguard /
+
+# Archivos de registro
+*.Iniciar sesión
+
+# Archivos temporales del editor de navegación de Android Studio
+.navegación/
+
+# Carpeta de capturas de Android Studio
+capturas /
+
+# Carpeta de capturas de Android Studio
+/Temp
+
+# IntelliJ
+* .iml
+.idea / workspace.xml
+.idea / tasks.xml
+.idea / gradle.xml
+.idea / assetWizardSettings.xml
+.idea / diccionarios
+.idea / bibliotecas
+.idea / jarRepositories.xml
+# Android Studio 3 en archivo .gitignore.
+.idea / cachés
+.idea / modules.xml
+# Comente la siguiente línea si mantener la posición de los elementos en el Editor de navegación es relevante para usted
+.idea / navEditor.xml
+
+# Archivos de almacén de claves
+# Descomente las siguientes líneas si no desea verificar los archivos del almacén de claves en formato.
+# *. jks
+# *. almacén de claves
+
+# Carpeta de compilación nativa externa generada en Android Studio 2.2 y posterior
+.externalNativeBuild
+.cxx /
+
+# Servicios de Google (por ejemplo, API o Firebase)
+# google-services.json
+
+# Línea libre
+freeline.py
+Línea libre/
+freeline_project_description.json
+
+# carril rápido
+fastlane / report.xml
+fastlane / Preview.html
+Fastlane / capturas de pantalla
+fastlane / salida_prueba
+fastlane / readme.md
+
+# Control de versiones
+vcs.xml
+
+# pelusa
+pelusa / intermedios /
+pelusa / generado /
+pelusa / salidas /
+pelusa / tmp /
+# pelusa / informes /
+
+# Perfiles de Android
+* .hprof
+
+### Parche de Android ###
+gen-external-apklibs
+output.json
+
+# Se introdujo el reemplazo de directorios .externalNativeBuild
+# con Android Studio 3.5.
+
+### Imágenes ###
+# JPEG
+* .jpg
+* .jpeg
+* .jpe
+* .jif
+* .jfif
+* .jfi
+
+# JPEG 2000
+* .jp2
+* .j2k
+* .jpf
+* .jpx
+* .jpm
+* .mj2
+
+# JPEG XR
+* .jxr
+* .hdp
+* .wdp
+
+# Formato de gráficos intercambeable
+* .gif
+
+# CRUDO
+*.crudo
+
+# Web P
+* .webp
+
+# Gráficos de red portátiles
+* .png
+
+# Gráficos de red portátiles animados
+* .apng
+
+# Gráficos de red de múltiples imágenes
+* .mng
+
+# Formato de archivo de imagen etiquetado
+*.pelea
+* .tif
+
+# Gráficas vectoriales escalables
+* .svg
+* .svgz
+
+# Formato de Documento Portable
+* .pdf
+
+# X BitMap
+* .xbm
+
+# BMP
+* .bmp
+* .dib
+
+# ICO
+* .ico
+
+# Imágenes 3D
+* .3dm
+* .max
+
+### SketchUp ###
+* .skb
+
+### Unidad ###
+# Este archivo .gitignore debe colocarse en la raíz del directorio de su proyecto de Unity
+#
+# Obtenga lo último de https://github.com/github/gitignore/blob/master/Unity.gitignore
+/ [Ll] ibrary /
+/ [Tt] emp /
+/ [Oo] bj /
+/ [Bb] uild /
+/ [Bb] uilds /
+/ [Ll] ogs /
+/ [Uu] ser [Ss] ettings /
+
+# MemoryCaptures puede tener un tamaño excesivo.
+# También pueden contener datos extremadamente sensibles
+/ [Mm] emoryCaptures /
+
+# Los metadatos de activos solo deben ignorarse cuando el activo correspondiente también se ignora
+! / [Aa] ssets / ** / *. Meta
+
+# Descomente esta línea si desea ignorar el complemento de herramientas de la tienda de activos
+# / [Aa] ssets / AssetStoreTools *
+
+# Complemento Jetbrains Rider generado automáticamente
+/ [Aa] ssets / Complementos / Editor / JetBrains *
+
+# Directorio de caché de Visual Studio
+.vs /
+
+# Directorio de caché de Gradle
+
+# Archivos de proyecto y solución VS / MD / Consulo autogenerados
+ExportedObj /
+.consulo /
+* .csproj
+* .unityproj
+* .sln
+* .suo
+* .tmp
+*.usuario
+* .userprefs
+* .pidb
+* .booproj
+* .svd
+* .pdb
+* .mdb
+* .opendb
+* .VC.db
+
+# Archivos meta generados por Unity3D
+* .pidb.meta
+* .pdb.meta
+* .mdb.meta
+
+# Archivo generado por Unity3D en informes de fallos
+sysinfo.txt
+
+# Construye
+* .unitypackage
+
+# Archivo generado por Crashlytics
+crashlytics-build.properties
+
+# De direccionables empaquetados
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Activos de Android generados automáticamente de forma temporal
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/ [Aa] ssets / [Ss] treamingAssets / aa / *
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+* .code-espacio de trabajo
+
+# Historial local para el código de Visual Studio
+.historia/
+
+### Parche VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historia
+.ionido
+
+### Windows ###
+# Archivos de caché de miniaturas de Windows
+Thumbs.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+* .stackdump
+
+# Archivo de configuración de carpeta
+[Dd] esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$ RECICLAJE.BIN /
+
+# Archivos de Windows Installer
+*.taxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Accesos directos de Windows
+* .lnk
+
+### AndroidStudio ###
+# Cubre los archivos que se ignorarán para el desarrollo de Android con Android Studio.
+
+# Archivos de aplicación creados
+
+# Archivos para ART / Dalvik VM
+
+# Archivos de clase Java
+
+# Archivos generados
+
+# Archivos Gradle
+.gradle
+
+# Firma de archivos
+.firma/
+
+# Archivo de configuración local (ruta sdk, etc.)
+
+# Carpeta Proguard generada por Eclipse
+
+# Archivos de registro
+
+# Android Studio
+/*/construir/
+/*/local.properties
+/*/fuera
+/*/*/construir
+/*/*/producción
+* .ipr
+* ~
+* .swp
+
+# Archivos de almacén de claves
+* .jks
+* .keystore
+
+# Servicios de Google (por ejemplo, API o Firebase)
+# google-services.json
+
+# Parche de Android
+
+# Carpeta de compilación nativa externa generada en Android Studio 2.2 y posterior
+
+# NDK
+obj /
+
+# IntelliJ IDEA
+* .iws
+/fuera/
+
+# Configuraciones específicas del usuario
+.idea / caches /
+.idea / bibliotecas /
+.idea / estante /
+.idea / .name
+.idea / compiler.xml
+.idea / copyright / profiles_settings.xml
+.idea / encodings.xml
+.idea / misc.xml
+.idea / scopes / scope_settings.xml
+.idea / vcs.xml
+.idea / jsLibraryMappings.xml
+.idea / datasources.xml
+.idea / dataSources.ids
+.idea / sqlDataSources.xml
+.idea / dynamic.xml
+.idea / uiDesigner.xml
+
+# Archivos específicos del sistema operativo
+.DS_Store
+.DS_Store?
+._ *
+.Spotlight-V100
+.Traspa
+
+# Archivos de proyecto heredados de Eclipse
+.classpath
+.proyecto
+.cproyecto
+.ajustes/
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp /
+
+# Paquetes de archivos #
+*.guerra
+*.oído
+
+# registros de fallas de la máquina virtual (Referencia: http://www.java.com/en/download/help/error_hotspot.xml)
+hs_err_pid *
+
+## Archivos específicos de complementos:
+
+Complemento # mpeltonen / sbt-idea
+.idea_modules /
+
+# Complemento JIRA
+atlassian-ide-plugin.xml
+
+# Complemento de Mongo Explorer
+.idea / mongoSettings.xml
+
+# Complemento de Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+fabric.properties
+
+### Parche de AndroidStudio ###
+
+! /gradle/wrapper/gradle-wrapper.jar
+
+# Fin de https://www.toptal.com/developers/gitignore/api/sketchup,visualstudiocode,unity,androidstudio,android,windows,images
